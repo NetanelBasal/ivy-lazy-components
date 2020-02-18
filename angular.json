@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "exploreivy": {
@@ -17,6 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "vendorSourceMap": true,
+            "evalSourceMap": false,
             "outputPath": "dist/exploreivy",
             "index": "src/index.html",
             "main": "src/main.ts",

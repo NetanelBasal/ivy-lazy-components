@@ -1,0 +1,2 @@
+<h1>Widgets</h1>
+<ng-container *ngFor="let widget of widgets$ | async" [ngComponentOutlet]="widget.default"></ng-container>

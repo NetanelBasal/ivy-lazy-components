@@ -9,6 +9,7 @@
     "src/polyfills.ts"
   ],
   "include": [
+    "src/app/dashboard/widgets/**/*.component.ts",
     "src/**/*.d.ts"
   ]
 }
